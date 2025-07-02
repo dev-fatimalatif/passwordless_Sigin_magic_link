@@ -6,7 +6,7 @@ import os
 cognito_client = boto3.client("cognito-idp", region_name="us-west-1")
 
 # Environment variables
-USER_POOL_CLIENT_ID = os.environ.get("USER_POOL_CLIENT_ID", "2o5j32tkqhojtdqsa84fut1s3")
+USER_POOL_CLIENT_ID = os.environ.get("USER_POOL_CLIENT_ID", "2o5j32txxxxxsa84fut1s3")
 
 def initiate_auth(email):
     """

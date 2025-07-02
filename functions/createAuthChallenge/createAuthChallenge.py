@@ -9,8 +9,8 @@ import uuid
 from botocore.exceptions import ClientError
 
 # Environment variables
-SES_FROM_ADDRESS = os.environ.get("SES_FROM_ADDRESS", "fatimalatifhnd@gmail.com")  # Change to your sender email
-BASE_URL = os.environ.get("BASE_URL", "https://d84l1y8p4kdic.cloudfront.net")  # Update with your base URL
+SES_FROM_ADDRESS = os.environ.get("SES_FROM_ADDRESS", "example@gmail.com")  # Change to your sender email
+BASE_URL = os.environ.get("BASE_URL", "https://d84l1xxxxkdic.cloudfront.net")  # Update with your base URL
 TIMEOUT_MINS = int(os.environ.get("TIMEOUT_MINS", 15))  # Expiration time in minutes
 SECRET_KEY = os.environ.get("SECRET_KEY", "your-secure-secret-key")  # Replace with a secure secret key
 
